@@ -208,7 +208,7 @@ header{
 }
 
 .fotoRecursos{
-    background-image: url('../../assets/fotoRecursos.jpeg');
+    background-image: url('../../assets/fotoRecursos.webp');
     background-size: cover;
     opacity: 0.8;
 }
