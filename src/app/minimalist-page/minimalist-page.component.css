@@ -1,0 +1,226 @@
+header{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* TODO ESTO TIENE QUE SER CON RESPONSIVIDAD DESDE LOS 1500 PX */
+.header{
+    width: 100%;
+    margin-top: -50px;
+}
+
+.wave{
+ background-image: url(../../assets/wave.svg);
+ width: 100vw;
+ height: 150px;
+ background-size: cover;
+}
+
+.section1{
+    background-color: #A555EC;
+    width: 100vw;
+    margin-top: 0;
+    /* padding-bottom: 100px; */
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -20px;   
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexPresentacion{
+    display: flex;
+    justify-content: center;
+
+}
+
+.tituloPresentacion{
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 0.5px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.subtituloPresentacion{
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 0.5px;
+}
+
+.contenidoPresentación{
+    color: rgb(76, 74, 74);
+    font-size: medium;
+    letter-spacing: 0.8px;
+    background: #FFFFD0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+/* TODO RESPONSIVE HASTA 1350PIX */
+.divsPresentacion{
+    width: 30vw;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* TODO RESPONSIVE HASTA 1350PIX */
+.contenedorTextos{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.fotoPresentacion{
+    border-radius: 25px;
+    width: 500px;
+    border: 2px solid white;
+}
+
+.waveAbajo{
+    background-image: url(../../assets/waveAbajo.svg);
+    width: 100vw;
+    height: 400px;
+    background-size: cover;
+    margin-top: -50px;
+}
+
+.contenedorRecursos{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: -100px;
+}
+
+.tituloRecursos{
+    color: rgb(76, 74, 74);
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.5px;
+    font-weight: 900;
+}
+
+.flexRecursos{
+    display: flex;
+    justify-content: center;
+}
+
+.flexCol{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.cardChica{
+    height: 200px;
+    width: 280px;
+    background-color: #FFFFD0;
+    margin: 12px;
+    border-radius: 18px;
+    -webkit-box-shadow: 4px 4px 6px 0px rgba(128,126,128,1);
+    -moz-box-shadow: 4px 4px 6px 0px rgba(128,126,128,1);
+    box-shadow: 4px 4px 6px 0px rgba(128,126,128,1);
+}
+
+.cardGrande{
+    height: 400px;
+    width: 280px;
+    background-color: #A555EC;
+    margin: 12px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    -webkit-box-shadow: 4px 4px 6px 0px rgba(128,126,128,1);
+    -moz-box-shadow: 4px 4px 6px 0px rgba(128,126,128,1);
+    box-shadow: 4px 4px 6px 0px rgba(128,126,128,1);
+}
+
+.cardCentral{
+    height: 300px;
+    width: 280px;
+    margin: 12px;
+    border-radius: 18px;
+    -webkit-box-shadow: 4px 4px 6px 0px rgba(128,126,128,1);
+    -moz-box-shadow: 4px 4px 6px 0px rgba(128,126,128,1);
+    box-shadow: 4px 4px 6px 0px rgba(128,126,128,1);
+}
+
+.cardCentralLila{
+    background-color: #F3CCFF;
+}
+
+.cardCentralGris{
+    background-color: gainsboro;
+}
+
+.crianza{
+    color: white;
+    font-size: xx-large;
+    margin-left: 10px;
+    font-weight: 400;
+
+}
+
+.spotify{
+    color: white;
+    font-size: xx-large;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.botonFlecha{
+    background-color: #A555EC;
+}
+
+.flechaSpotify{
+    width: 70px;
+    margin-left: 10px;
+}
+
+:hover.flechaSpotify{
+    opacity: 0.5;
+}
+
+.flexBoton{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.mindfulness{
+    color: rgb(76, 74, 74);
+    font-size: xx-large;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.fotoRecursos{
+    background-image: url('../../assets/fotoRecursos.jpeg');
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.textoRecursos{
+    margin: 20px;
+    color: rgb(76, 74, 74);
+    font-size: large;
+    letter-spacing: 0.5px;
+}
+
+.flexTextoRecursos{
+    display: flex;
+    align-items: center;    
+}
