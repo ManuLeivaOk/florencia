@@ -1,3 +1,11 @@
+:root {
+    --amarillo: #FFFFD0;
+    --claro: #F3CCFF;
+    --medio: #D09CFA;
+    --oscuro: #A555EC;
+    --gris: rgb(76, 74, 74);
+  }
+
 header{
     width: 80%;
     margin: 0 auto;
@@ -22,6 +30,10 @@ header{
     margin-top: 0;
     /* padding-bottom: 100px; */
 }
+
+
+/* PRESENTACION */
+
 
 .container{
     width: 90%;
@@ -96,6 +108,10 @@ header{
     background-size: cover;
     margin-top: -50px;
 }
+
+
+/* RECURSOS */
+
 
 .contenedorRecursos{
     width: 95%;
@@ -223,4 +239,102 @@ header{
 .flexTextoRecursos{
     display: flex;
     align-items: center;    
+}
+
+.textoMindfulnes{
+    margin-left: 10px;
+    letter-spacing: 0.5px;
+    font-size: large;
+    color: rgb(76, 74, 74);
+}
+
+
+/* PROPUESTAS */
+
+
+.propuestas{
+    margin-top: 180px;
+    background: #A555EC;
+    width: 100vw;
+
+}
+
+.tituloPropuestas{
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 0.5px;
+    font-weight: 900;
+    margin: 0;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.contenedorPropuestas{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 150px;
+}
+
+.contenedorCards{
+    width: 40%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.enlacePropuestas{
+    text-decoration: none;
+    margin: 20px 30px;
+    
+}
+
+:hover.enlacePropuestas{
+    opacity: 0.9;
+}
+
+.cardPropuesta{
+    background-color: #D09CFA;
+    border-radius: 20px;
+    padding: 12px;
+    background-color: #FFFFD0;
+    max-width: 500px;
+}
+
+.tituloCardPropuesta{
+    color: rgb(76, 74, 74);
+    font-size: large;
+}
+
+.textoCardPropuesta{
+    color: rgb(76, 74, 74);
+    font-size: medium;
+    letter-spacing: 0.5px;
+}
+
+.fotoConsultorio{
+    border-radius: 20px;
+    max-width: 700px;
+}
+
+.contenedorImagenPropuestas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* FOOTER */
+
+
+footer{
+    margin-top: 150px;
+    width: 100vw;
+    height: 300px;
 }
