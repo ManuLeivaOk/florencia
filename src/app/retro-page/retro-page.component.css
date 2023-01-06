@@ -1,0 +1,133 @@
+.roboto{
+    font-family: 'Roboto Mono', monospace;
+}
+
+header{
+    width: 100%;
+    background: #FFFBE0;
+    padding-top: 100px;
+}
+
+.contenedorTituloHeader{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 500px;
+     margin: 0 auto;
+     background-color: #FFD83F;
+     border: solid 2px black;
+     position: relative;
+     box-shadow: 2px 2px 0px 1px rgb(0,0,0);
+
+}
+
+.contenedorPsicologia{  
+    width: 50px;
+    height: 50px;
+    background-color: #FF8E51;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-right: 500px;
+
+}
+
+.psicologia{
+    width: 40px;
+    height: 40px;
+}
+
+.contenedorTextosHeader{
+    display: flex;
+}
+
+.izquierdaHeader{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    align-items: end;
+    margin-top: 100px;
+}
+
+.grandeHeader{
+    background-color: #5CD1FF;
+    height: 250px;
+    width: 60%;
+    border: solid 2px black;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 0px 1px rgb(0,0,0);
+    letter-spacing: 0.5px;
+}
+
+.chicoHeader{
+    background: #F9B2DC;
+    height: 150px;
+    width: 60%;
+    border: solid 2px black;
+    margin-top: 25px;
+    margin-bottom: 150px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 0px 1px rgb(0,0,0);
+    letter-spacing: 0.5px;
+}
+
+.derechaHeader{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 40%; 
+}
+
+.fotoHeader{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 0px 1px rgb(0,0,0);
+}
+
+.subtituloHeader{
+    margin: 15px;
+}
+
+section{
+    background: #3EA66B;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.contenedorPropuestas{
+    display: flex;
+    justify-content: center;
+}
+
+.cardPropuestas{
+    background: #FFFBE0;
+    width: 300px;
+    height: 400px;
+    border: 2px solid black;
+    margin: 45px;
+    box-shadow: 2px 2px 0px 1px rgb(0,0,0);
+    padding: 30px;
+}
+
+.imagenesPropuestas{
+    border: 2px solid black;
+}
+
+.textoPropuestas{
+    text-align: center;
+    font-size: large;
+    letter-spacing: 0.5px;
+}
