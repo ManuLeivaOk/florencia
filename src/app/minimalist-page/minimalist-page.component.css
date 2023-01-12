@@ -4,6 +4,9 @@
     --medio: #D09CFA;
     --oscuro: #A555EC;
     --gris: rgb(76, 74, 74);
+
+    --amarillo-oscuro: #FFD4B2;
+    --amarillo-claro: #FFF6BD;
   }
 
 header{
@@ -17,15 +20,16 @@ header{
     margin-top: -50px;
 }
 
-.wave{
- background-image: url(../../assets/wave.svg);
+.waveArriba{
+ background-image: url(../../assets/waveArriba.svg);
  width: 100vw;
- height: 150px;
+ height: 400px;
+ margin-top: -200px;
  background-size: cover;
 }
 
 .section1{
-    background-color: #A555EC;
+    background-color: #FFD4B2;
     width: 100vw;
     margin-top: 0;
     /* padding-bottom: 100px; */
@@ -54,29 +58,28 @@ header{
 }
 
 .tituloPresentacion{
-    color: white;
+    color: rgb(112, 112, 112);    
     font-size: 3rem;
     letter-spacing: 0.5px;
-    font-weight: 900;
+    font-weight: 900;   
     margin: 0;
 }
 
-.subtituloPresentacion{
-    color: white;
-    font-size: 2rem;
-    letter-spacing: 0.5px;
+.parrafoPresentacion{
+    line-height: 160%;
 }
 
 .contenidoPresentación{
-    color: rgb(76, 74, 74);
+    color: rgb(112, 112, 112);    
     font-size: medium;
     letter-spacing: 0.8px;
-    background: #FFFFD0;
+    background: #FFF6BD;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 20px;
     padding-left: 20px;
     border-radius: 20px;
+    margin-top: 30px;
 }
 
 /* TODO RESPONSIVE HASTA 1350PIX */
@@ -117,6 +120,7 @@ header{
     width: 95%;
     margin: 0 auto;
     margin-top: -100px;
+    margin-bottom: 130px;
 }
 
 .tituloRecursos{
@@ -141,7 +145,7 @@ header{
 .cardChica{
     height: 200px;
     width: 280px;
-    background-color: #FFFFD0;
+    background-color: #e8e8e8;
     margin: 12px;
     border-radius: 18px;
     -webkit-box-shadow: 4px 4px 6px 0px rgba(128,126,128,1);
@@ -152,7 +156,7 @@ header{
 .cardGrande{
     height: 400px;
     width: 280px;
-    background-color: #A555EC;
+    background-color: #FFD4B2;
     margin: 12px;
     border-radius: 18px;
     display: flex;
@@ -173,24 +177,24 @@ header{
     box-shadow: 4px 4px 6px 0px rgba(128,126,128,1);
 }
 
-.cardCentralLila{
-    background-color: #F3CCFF;
+.cardCentralAmarilla{
+    background-color: #FFF6BD;
+
 }
 
-.cardCentralGris{
-    background-color: gainsboro;
+.cardCentralRosa{
+    background-color: #FFD4B2;
 }
 
 .crianza{
-    color: white;
+    color: rgb(76, 74, 74);
     font-size: xx-large;
     margin-left: 10px;
     font-weight: 400;
-
 }
 
 .spotify{
-    color: white;
+    color: rgb(76, 74, 74);
     font-size: xx-large;
     margin-left: 10px;
     font-weight: 700;
@@ -202,7 +206,8 @@ header{
 
 .flechaSpotify{
     width: 70px;
-    margin-left: 10px;
+    margin-left: 30px;
+    margin-bottom: 5px;
 }
 
 :hover.flechaSpotify{
@@ -218,8 +223,9 @@ header{
 
 .mindfulness{
     color: rgb(76, 74, 74);
-    font-size: xx-large;
-    margin-left: 10px;
+    font-size: x-large;
+    margin: 10px;
+    margin-top: 30px;
     font-weight: 400;
 }
 
@@ -242,7 +248,7 @@ header{
 }
 
 .textoMindfulnes{
-    margin-left: 10px;
+    margin: 15px;
     letter-spacing: 0.5px;
     font-size: large;
     color: rgb(76, 74, 74);
@@ -253,20 +259,18 @@ header{
 
 
 .propuestas{
-    margin-top: 180px;
-    background: #A555EC;
+    /* margin-top: 180px; */
+    background: #FFD4B2;
     width: 100vw;
-
 }
 
 .tituloPropuestas{
-    color: white;
+    color: rgb(112, 112, 112);    
     font-size: 3rem;
     letter-spacing: 0.5px;
     font-weight: 900;
     margin: 0;
     text-align: center;
-    padding-top: 50px;
 }
 
 .contenedorPropuestas{
@@ -275,17 +279,13 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-    padding-bottom: 150px;
 }
 
 .contenedorCards{
     width: 40%;
     border-radius: 20px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;    
 
 }
 
@@ -300,10 +300,9 @@ header{
 }
 
 .cardPropuesta{
-    background-color: #D09CFA;
     border-radius: 20px;
     padding: 12px;
-    background-color: #FFFFD0;
+    background-color: #FFF6BD;
     max-width: 500px;
 }
 
@@ -320,7 +319,8 @@ header{
 
 .fotoConsultorio{
     border-radius: 20px;
-    max-width: 700px;
+    max-width: 500px;
+    border: solid 2px rgb(128, 127, 127);
 }
 
 .contenedorImagenPropuestas{
