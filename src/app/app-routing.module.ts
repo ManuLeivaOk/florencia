@@ -10,14 +10,6 @@ const routes: Routes = [
     component: MinimalistPageComponent
   },
   {
-    path: 'moderna',
-    component: ModernPageComponent
-  },
-  {
-    path: 'retro',
-    component: RetroPageComponent
-  },
-  {
     path: '**',
     component: MinimalistPageComponent
   }
