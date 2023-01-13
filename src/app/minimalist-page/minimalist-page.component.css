@@ -117,7 +117,7 @@ color: #707070;
 }
 
 .contenidoPresentación {
-    color: #707070;
+  color: #707070;
   font-size: medium;
   letter-spacing: 0.8px;
   background: #fff6bd;
@@ -125,6 +125,7 @@ color: #707070;
   border-radius: 20px;
   margin-top: 30px;
   width: 500px;
+  border: solid 2px white;
 }
 
 .divsPresentacion {
@@ -133,6 +134,13 @@ color: #707070;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 1150px) {
+  .contenedorRecursosGeneral{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /* TODO RESPONSIVE HASTA 1350PIX */
@@ -513,13 +521,13 @@ color: #707070;
     width: 300px;
     height: 500px;
     margin: 0 10px;
-    background: rgb(251, 251, 251);
+    background: #fff6bd;
     margin: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid #9f9e9e;
+    border: 2px solid white;
     border-radius: 18px;
     -webkit-box-shadow: 4px 4px 6px 0px rgba(128, 126, 128, 1);
     -moz-box-shadow: 4px 4px 6px 0px rgba(128, 126, 128, 1);
